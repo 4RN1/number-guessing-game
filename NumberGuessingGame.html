@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="NumberGuessingGame.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+
+  <title>Number Guessing Game</title>
+</head>
+<body>
+  
+<!--STARTING CONTAINER -->
+
+<div class="st-container" id="st-container">
+<h1 id="main-heading">WELCOME This is Number Guessing Game</h1>
+<img src="math clipart cartoon numbers_6086531.png" alt="">
+<p>Wanna Play?</p> <!--Wanna play?-->
+<button class="play">Start</button>
+</div>
+<!--2nd CONTAINER -->
+<div class="pick-container">
+<h1>Lets go!!!</h1>
+<p>Pick number from 1-10 if u guess it right u will get a CAKE🎂🎂🎂</p>
+
+<input type="text" class="num">
+<button type="submit" class="submit">Submit</button>
+</div>
+
+
+<!--if player win ↓↓↓↓ -->
+<!--IF GUESSED CONTAINER -->
+
+<div class="win-container">
+<h1>Congratulations You Win!!!!</h1>
+<p id="prize-text">HERES UR PRIZE!!</p>
+<p class="correct-win">correct number is:<span class="num-win"></span></p>
+
+<img src="chocolate cake cartoon_9062481.png" alt="cake">
+
+<p id="play-again" class="play-again">Wanna Play Again? (we have more cakes)</p>
+
+<button class="playagain">Play Again</button>
+
+</div>
+
+
+<!--if player lose ↓↓↓↓ -->
+<!--IF LOST CONTAINER -->
+<div class="lose-container">
+<h1>Sorry You Lose</h1>
+<p>Better Luck Next Time</p>
+<p class="correct-lose">correct number is:<span class="num-lose"></span></p>
+
+<img src="Sad Cry GIF by SpongeBob SquarePants.gif" alt="lose">
+
+<p>Wanna Play Again?</p>
+
+<button class="playagain">Play Again</button>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="numberGuessingGame.js"></script>
+</body>
+</html>
